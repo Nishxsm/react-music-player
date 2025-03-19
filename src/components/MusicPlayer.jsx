@@ -4,7 +4,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 const songs = [
   { 
     title: "Chase Atlantic Swim", 
-    src: "/react-music-player/music/Chase Atlantic-Swim.mp3",
+    src: "/react-music-player/music/Chase-Atlantic-Swim.mp3",
     image: "/react-music-player/images/swim-thumbnail.jpeg" 
   },
   { 
@@ -14,18 +14,18 @@ const songs = [
   },
   { 
     title: "My Love Mine all mine", 
-    src: "/react-music-player/music/Mitski-My Love Mine All Mine.mp3",
+    src: "/react-music-player/music/Mitski-My-Love-Mine-All-Mine.mp3",
     image: "/react-music-player/images/mitski-thumbnail.jpeg" 
   },
   {
     title: "Chk Chk Boom", 
-    src: "/react-music-player/music/chk chk boom.mp3",
-    image: "/react-music-player/images/chk chk boom.png"
+    src: "/react-music-player/music/chk-chk-boom.mp3",
+    image: "/react-music-player/images/chk-chk-boom.png"
   },
   { 
     title: "Washing Machine Heart", 
-    src: "/react-music-player/music/washing machine heart.mp3",
-    image: "/react-music-player/images/washing machine heart.png" 
+    src: "/react-music-player/music/washing-machine-heart.mp3",
+    image: "/react-music-player/images/washing-machine-heart.png" 
   }
 ];
 
