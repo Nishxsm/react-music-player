@@ -4,30 +4,31 @@ import PropTypes from "prop-types"; // Import PropTypes
 const songs = [
   { 
     title: "Chase Atlantic Swim", 
-    src: "/music/Chase Atlantic-Swim.mp3",
-    image: "/images/swim-thumbnail.jpeg" 
+    src: "/react-music-player/music/Chase Atlantic-Swim.mp3",
+    image: "/react-music-player/images/swim-thumbnail.jpeg" 
   },
   { 
     title: "Dont Laugh", 
-    src: "/music/Chase_Atlantic-Dont_Laugh.mp3",
-    image: "/images/dont-laugh-thumbnail.jpg" 
+    src: "/react-music-player/music/Chase_Atlantic-Dont_Laugh.mp3",
+    image: "/react-music-player/images/dont-laugh-thumbnail.jpg" 
   },
   { 
     title: "My Love Mine all mine", 
-    src: "/music/Mitski-My Love Mine All Mine.mp3",
-    image: "/images/mitski-thumbnail.jpeg" 
+    src: "/react-music-player/music/Mitski-My Love Mine All Mine.mp3",
+    image: "/react-music-player/images/mitski-thumbnail.jpeg" 
   },
   {
     title: "Chk Chk Boom", 
-    src: "/music/chk chk boom.mp3",
-    image: "/images/chk chk boom.png"
+    src: "/react-music-player/music/chk chk boom.mp3",
+    image: "/react-music-player/images/chk chk boom.png"
   },
   { 
     title: "Washing Machine Heart", 
-    src: "/music/washing machine heart.mp3",
-    image: "/images/washing machine heart.png" 
+    src: "/react-music-player/music/washing machine heart.mp3",
+    image: "/react-music-player/images/washing machine heart.png" 
   }
 ];
+
 
 
 function MusicPlayer({ currentSongIndex, setCurrentSongIndex }) {
